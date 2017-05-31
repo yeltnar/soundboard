@@ -68,7 +68,7 @@
 		}
 
 		window.addEventListener("load", start);
-		window.addEventListener("keydown",(event)=>{
+		window.addEventListener("keydown",(event)=>{//change
 			if( (event.ctrlKey || event.metaKey || event.key==="Alt") && parseInt(event.key) ){
 				debugger
 				document.querySelector('[name="'+files[parseInt(event.key)].name+'"]').play();
