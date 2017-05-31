@@ -9,7 +9,10 @@
 	flex-wrap:wrap;
 }
 
-.audio-track{
+.audio-track{    
+	min-width: 2.5in;
+    min-height: 1.5in;
+
 	width:20rem;
 	background-color: #3ae072;
 	margin:1rem;
