@@ -1,0 +1,85 @@
+<HTML>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="vue.js"></script>
+		<script>
+		
+		var files = [
+			{"name":"another one bites the dust", "format":"mp3"},
+			{"name":"He chose... poorly", "format":"mp3"},
+			{"name":"I do not think itmeans what you think it means", "format":"mp3"},
+			{"name":"I Don't Stand By Anything", "format":"mp3"},
+			{"name":"I know words I have the best words", "format":"mp3"},
+			{"name":"MDPDP", "format":"mp3"},
+			{"name":"Thanks to denial Im immortal", "format":"wav"},
+			{"name":"You're the Puppet", "format":"mp3"},
+			{"name":"Eat some fucking shit you fucking stupid bitch", "format":"mp3"}
+		]
+
+
+		var app
+		function start(){
+
+			Vue.component('audio-track',{
+				'template':`<div v-on:click="playClip" class="audio-track" v-bind:name="name" >
+							<div class="name">{{name}}</div>
+							<audio controls><source v-bind:src="folder+name+dot+format" type="audio/mpeg">Your browser does not support the audio element.
+							</audio>
+						</div>`,
+				'props':{
+					"name":{
+						"required":true,
+						'type':String
+					},
+					"format":{
+						"required":true,
+						'type':String
+					},
+					"dot":{"default":"."},
+					"folder":{"default":"audio/"}
+				},
+				'methods':{
+					"play":(event)=>{
+						this.format
+						debugger
+						document.querySelector('[name="another one bites the dust"]')
+					}
+				},
+				'computed':{
+					"playClip":(event)=>{
+						this.format
+						//debugger
+						document.querySelector('[name="another one bites the dust"]')
+					}
+				}
+			});
+
+			app = new Vue({
+				el: '#audioCardHolder',
+				data: {
+					files
+				},
+				filters:{
+					addFile:(value)=>{
+						return "audio/"+value.name+"."+value.format;
+					}
+				}
+			})
+		}
+
+		window.addEventListener("load", start);
+		window.addEventListener("keydown",(event)=>{
+			if( (event.ctrlKey || event.metaKey || event.key==="Alt") && parseInt(event.key) ){
+				debugger
+				document.querySelector('[name="'+files[parseInt(event.key)].name+'"]').play();
+			}
+		});
+		
+		</script>
+	</head>
+	<body>
+		<div id="audioCardHolder">
+			<audio-track v-for="file in files" v-bind:name="file.name" v-bind:format="file.format"></audio-track>
+		</div>
+	</body>
+</HTML>

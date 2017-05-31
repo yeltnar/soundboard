@@ -1,0 +1,33 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+#audioCardHolder{
+	background-color: #1e8942;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.audio-track{
+	width:20rem;
+	background-color: #3ae072;
+	margin:1rem;
+	display:flex;
+	flex-direction:column;
+	height:10rem;
+	justify-content: space-around;
+}
+
+.audio-track audio{
+	width:100%;
+}
+
+.audio-track>.name{
+	font-size:2rem;
+	text-align:center;
+}
+
+body{
+	font-family: roboto;
+}

@@ -1,0 +1,183 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Master_data" version="1.3.0" audacityversion="2.1.2" sel0="0.0000000000" sel1="18.1289795918" vpos="1648" h="0.0000000000" zoom="83.2368966138" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="another one bites the dust" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="799488">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000230.au" len="262144" min="-0.891251" max="0.878922" rms="0.125135"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e000018a.au" len="262144" min="-0.817708" max="0.797577" rms="0.136452"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0000aed.au" len="262144" min="-0.855921" max="0.783935" rms="0.142658"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e000001c.au" len="13056" min="-0.334749" max="0.27392" rms="0.019071"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="another one bites the dust" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="799488">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d55.au" len="262144" min="-0.856216" max="0.820041" rms="0.12491"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0000117.au" len="262144" min="-0.794258" max="0.816234" rms="0.13413"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e00006f9.au" len="262144" min="-0.854095" max="0.828604" rms="0.1518"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="e0000c39.au" len="13056" min="-0.401076" max="0.456198" rms="0.024194"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Eat some fucking shit you fucking stupid bitch" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="152064">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004ac.au" len="152064" min="-0.891251" max="0.800503" rms="0.110573"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Eat some fucking shit you fucking stupid bitch" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="152064">
+				<waveblock start="0">
+					<simpleblockfile filename="e00004cb.au" len="152064" min="-0.891162" max="0.800503" rms="0.110573"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="He chose... poorly" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="153216">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000e32.au" len="153216" min="-0.605445" max="0.801735" rms="0.077202"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="He chose... poorly" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="153216">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000dd2.au" len="153216" min="-0.523405" max="0.891251" rms="0.07979"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="I do not think itmeans what you think it means" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="82944">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000305.au" len="82944" min="-0.698411" max="0.88761" rms="0.10619"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="I do not think itmeans what you think it means" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="82944">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000a4f.au" len="82944" min="-0.728262" max="0.891251" rms="0.105758"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="I Don&apos;t Stand By Anything" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="49536">
+				<waveblock start="0">
+					<simpleblockfile filename="e00000eb.au" len="49536" min="-0.643116" max="0.891251" rms="0.139393"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="I Don&apos;t Stand By Anything" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="49536">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000584.au" len="49536" min="-0.643148" max="0.891196" rms="0.13874"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="I know words I have the best words" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="94464">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000753.au" len="94464" min="-0.679683" max="0.888759" rms="0.115697"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="I know words I have the best words" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="94464">
+				<waveblock start="0">
+					<simpleblockfile filename="e00003d4.au" len="94464" min="-0.705962" max="0.891251" rms="0.115736"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="MDPDP" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="24000" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="33408">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000374.au" len="33408" min="-0.891251" max="0.81903" rms="0.130127"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Thanks to denial Im immortal" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="95026">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f22.au" len="95026" min="-0.876035" max="0.810035" rms="0.122669"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Thanks to denial Im immortal" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="95026">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000166.au" len="95026" min="-0.891251" max="0.803399" rms="0.123079"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="You&apos;re the Puppet" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="165888">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000cf3.au" len="165888" min="-0.888623" max="0.891251" rms="0.174997"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
